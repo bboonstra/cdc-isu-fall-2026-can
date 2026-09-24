@@ -24,7 +24,7 @@ module Canvas::Security
     MIN_LOGIN_ATTEMPTS = "3"
     MAX_LOGIN_ATTEMPTS = "20"
 
-    DEFAULT_CHARACTER_LENGTH = "1"
+    DEFAULT_CHARACTER_LENGTH = "8"
     DEFAULT_LOGIN_ATTEMPTS = "10"
 
     def self.validate(record, attr, value)
